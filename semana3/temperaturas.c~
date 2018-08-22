@@ -1,0 +1,19 @@
+/*Este es el primer programa de la semana 3, el objetivo es csmbiar de temperaturas en °C a K y °F; Este progrma fue creado por Juan Manuel Alvarez Paz, el 20 de agosto de 2018.*/
+
+#include<stdio.h>
+int main()
+{
+   float t1, t2, t3, t4;
+   printf("Hola para facilitar el día a día en la escuela hemos creado un programa el cual ayua a convertir temperaturas de °C a K y °F; y finalmeta a °C para realizar una comprovación.");
+   printf("por favor ingrasa la temperatura en °C");
+   scanf("%f",&t1);
+   
+   t2= t1+273.15
+   Printf("De acuedo don la tempertura ingresada, el K equivale a %f \n", t2);
+  
+   return 0; 
+}  
+
+
+
+
