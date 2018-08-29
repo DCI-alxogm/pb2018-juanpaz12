@@ -15,8 +15,8 @@ int main()
     scanf("%f",&z);
 
     r=sqrt(pow(x,2)+pow(y,2)+pow(z,2));
-    o=acos(z/r);
-    p=atan(y/x);
+    o=acos(z/r)*(3.1416/180);
+    p=atan(y/x)*(3.1416/180);
     
     printf("la coordenada de la forma (r,θ,φ) es: (%f,%f,%f) \n", r, o, p);
     return 0;
