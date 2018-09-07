@@ -4,7 +4,7 @@
 
 int main()
 {
-  float x, e, f, g, h, i, n;
+  float x, e, f, g, h, j, i, n;
     int a, b, c;
      
     printf("Hola que evalua funciones con intervalos\n");
@@ -15,21 +15,22 @@ int main()
     printf("por ultimo ingrasa el intervalo en que se realizaran los calculos\n");
     scanf("%i",&c);
 
-    n=(b-a)/c
+    n=(b-a)/c;
     for (i=0; i<=n; i++){  
+    x=(a+(c*i));
     e=exp(x);
     f=log(x);
     g=sin(x); 
     h=cos(x);
-    i=sqrt(x);
+    j=sqrt(x);
 
     printf("Exp(%f) = %f\n",x,e);
     printf("Log(%f) = %f\n",x,f);
     printf("Sen(%f) = %f\n",x,g);
     printf("Cos(%f) = %f\n",x,h);
-    printf("Raiz cuadrada(%f) = %f\n",x,i);
+    printf("Raiz cuadrada(%f) = %f\n",x,j);
     printf("Los resultados con x = %f\n",x);
-} 
+}
 return 0;
 }
   
