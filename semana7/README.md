@@ -1,0 +1,1 @@
+Este programa se encarga de realizar una integral por método del trapecio, para esto primero se creo un archivo llamado Datos.txt, el cual contenia las 5 incognitas necesarias para realizar la inegral, con estos datos se reaizaron los calculos de dicha integra, por últmo estos datos se escribieron en otro documento llando resultados.txt. 
