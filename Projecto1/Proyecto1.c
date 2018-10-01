@@ -19,58 +19,58 @@ int main(){
     for(a=1;a<10;a++){
       switch(a){
  case 1:
-    op=fopen("Orbita_de_Mercurio.txt", "w");
+    op=fopen("Posiciones_velocidades__de_Mercurio.txt", "w");
     fscanf(dat, "%lf %lf %lf %lf %lf %lf", &xo, &yo, &zo, &vxo, &vyo, &vzo);
     printf("Valores correspondiente a Mercurio\n");
     break;
 
     case 2:
-    op=fopen("Orbita_de_Venus.txt", "w");
+    op=fopen("Posiciones_velocidades__de_Venus.txt", "w");
     fscanf(dat, "%lf %lf %lf %lf %lf %lf", &xo, &yo, &zo, &vxo, &vyo, &vzo);
      printf("Valores correspondientes a Venus\n");
     break;
 
     case 3:
-    op=fopen("Orbita_de_Tierra.txt", "w");
+    op=fopen("Posiciones_velocidades_de_Tierra.txt", "w");
     fscanf(dat, "%lf %lf %lf %lf %lf %lf", &xo, &yo, &zo, &vxo, &vyo, &vzo);
     printf("Valores correspondientes a la Tierra\n");
     break;
 
     case 4:
-    op=fopen("Orbita_de_Marte.txt", "w");
+    op=fopen("Posiciones_velocidades__de_Marte.txt", "w");
     fscanf(dat, "%lf %lf %lf %lf %lf %lf", &xo, &yo, &zo, &vxo, &vyo, &vzo);
     printf("Valores correspondientes a Marte\n");
   
     break;
 
     case 5:
-    op=fopen("Orbita_de_Jupiter.txt", "w");
+    op=fopen("Posiciones_velocidades_de_Jupiter.txt", "w");
     fscanf(dat, "%lf %lf %lf %lf %lf %lf", &xo, &yo, &zo, &vxo, &vyo, &vzo);
      printf("Valores correspondientes a Jupiter\n");
     
     break;
 
     case 6:
-    op=fopen("Orbita_de_Saturno.txt", "w");
+    op=fopen("Posiciones_velocidades_de_Saturno.txt", "w");
     fscanf(dat, "%lf %lf %lf %lf %lf %lf", &xo, &yo, &zo, &vxo, &vyo, &vzo);
     printf("Valores correspondientes a Saturno\n");
     
     break;
 
     case 7:
-    op=fopen("Orbita_de_Urano.txt", "w");
+    op=fopen("Posiciones_velocidades_de_Urano.txt", "w");
     fscanf(dat, "%lf %lf %lf %lf %lf %lf", &xo, &yo, &zo, &vxo, &vyo, &vzo);
      printf("Valores correspondientes a Urano\n");
     break;
 
     case 8:
-    op=fopen("Orbita_de_Neptuno.txt", "w");
+    op=fopen("Posiciones_velocidades_de_Neptuno.txt", "w");
     fscanf(dat, "%lf %lf %lf %lf %lf %lf", &xo, &yo, &zo, &vxo, &vyo, &vzo);
      printf("Valores correspondientes a Neptuno\n");
     break;
 
     case 9:
-    op=fopen("Orbita_de_Pluton.txt", "w");
+    op=fopen("Posiciones_velocidades_de_Pluton.txt", "w");
     fscanf(dat, "%lf %lf %lf %lf %lf %lf", &xo, &yo, &zo, &vxo, &vyo, &vzo);
      printf("Valores correspondientes a Pluton\n");
     break;  
